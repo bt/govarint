@@ -6,6 +6,12 @@ This project aims to provide a simple API for the performant encoding and decodi
 
 ## Usage
 
+Get the package by running the following:
+
+```
+$ go get github.com/secoura/govarint
+```
+
 Each integer encoding algorithm conforms to an encoding and decoding interface.
 The interfaces also specify the size of the unsigned integer, either 32 or 64 bits, and will be referred to as XX below.
 To create an encoder:
